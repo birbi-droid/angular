@@ -1,0 +1,69 @@
+/*Valores footer*/
+footer{
+	width:auto;
+	height:auto;
+	background-color: #464747;	
+	color: white;
+	margin: 0.5% 0% 2% 0%;
+	padding: 2% 0% 2% 0%;
+}
+
+/*Valores nav2*/
+.nav_principal3{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    text-align: right;
+    width: auto;
+    height: auto;
+    /*padding: 0% 0.5% 0% 0.5%;*/
+    /*padding: 2% 1% 2% 1%;*/
+    font-family: 'Squada One', cursive;
+    font-size: 0.95em;
+}
+
+
+.navIntoNav3{
+    width: 83%;
+    
+   /* margin: 0% 0% 0% 6%;*/
+    /*padding: 0% 1% 0% 1%;*/
+}
+
+#iconosBlancos{
+	color:white;
+}
+.navIntoNav3 > a{
+    text-decoration: none;
+   color: #97a0a7;
+    /*background-color: #c0e7f1;/*inherit;*/
+   border-radius: 3px;
+    margin: 0% 0.75% 0% 0.25%;
+}
+.navIntoNav3 > a:hover{
+    text-decoration: none;
+   	/*border: 2px solid black;*/
+    color: #d8f0f6;
+   	background-color: #075d73;/*inherit;*/
+    border-radius: 3px;
+    
+}
+
+.navOtro3 > a{
+    text-decoration: none;
+    color: black;
+   	background-color: #c0e7f1;/*inherit;*/
+    /*border-radius: 5px;*/
+}
+
+.navOtro3 > a:hover{
+    text-decoration: none;
+    color: #d8f0f6;
+    background-color: #075d73;/*inherit;*/
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.navOtro3{
+    width:15%;
+}

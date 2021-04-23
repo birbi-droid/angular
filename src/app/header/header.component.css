@@ -1,0 +1,73 @@
+#borde{border: 1px solid black;}
+#borde2{border: 2px solid black;}
+
+/*Valores main*/
+main{
+    /*width : 992px;*/
+    width: auto;
+    height: auto;
+    background-color: white;
+    margin: 0.5% 0%  1% 0%;
+}
+
+/*Valores nav2*/
+.nav_principal2{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    text-align: right;
+    width: auto;
+    height: auto;
+    padding: 0% 1% 0% 5%;
+    padding: 2% 1% 2% 1%;
+   	background-color:white;
+    font-family: 'Squada One', cursive;
+    font-size: 0.95em;
+}
+#bordeRellenoIconos{
+	width:auto;
+	height:auto;
+	background-color: red;
+	color:white;
+	padding: 2% 1% 2% 1%;
+}
+
+.navIntoNav2{
+    width: 83%;
+   /* margin: 0% 0% 0% 6%;*/
+    /*padding: 0% 1% 0% 1%;*/
+}
+.navIntoNav2 > a{
+    text-decoration: none;
+    color: black;
+    /*background-color: #c0e7f1;/*inherit;*/
+   border-radius: 3px;
+    margin: 0% 0.75% 0% 0.25%;
+}
+.navIntoNav2 > a:hover{
+    text-decoration: none;
+   	/*border: 2px solid black;*/
+    color: #d8f0f6;
+   	background-color: #075d73;/*inherit;*/
+    border-radius: 3px;
+    
+}
+
+.navOtro2 > a{
+    text-decoration: none;
+    color: black;
+   	background-color: #c0e7f1;/*inherit;*/
+    /*border-radius: 5px;*/
+}
+
+.navOtro2 > a:hover{
+    text-decoration: none;
+    color: #d8f0f6;
+    background-color: #075d73;/*inherit;*/
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.navOtro2{
+    width:12%;
+}

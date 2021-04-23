@@ -5,19 +5,19 @@ footer{
 	background-color: #464747;	
 	color: white;
 	margin: 0.5% 0% 2% 0%;
-	padding: 2% 0% 2% 0%;
+	/*padding: 2% 0% 2% 0%;*/
 }
 
 /*Valores nav2*/
 .nav_principal3{
     display: flex;
     flex-direction:row;
-    justify-content: flex-start;
-    text-align: right;
+    justify-content: space-evenly;
+    text-align: center;
     width: auto;
     height: auto;
     /*padding: 0% 0.5% 0% 0.5%;*/
-    /*padding: 2% 1% 2% 1%;*/
+    padding: 0.1% 1% 2% 1%;
     font-family: 'Squada One', cursive;
     font-size: 0.95em;
 }

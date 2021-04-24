@@ -1,0 +1,16 @@
+.divForm{
+    margin-top: 20px;
+   font-family: 'Squada One',cursive;
+   font-size: 1.00em;
+}
+form{
+   width: 50%;
+   font-family: 'Roboto',sans-serif;
+   text-align: left;
+   font-size: 1.05em;
+   background: #aad6f3;
+}
+legend{
+   font-size: 1.25em;
+   font-family: 'Squada One',cursive;
+}

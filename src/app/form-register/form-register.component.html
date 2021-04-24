@@ -1,0 +1,57 @@
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Squada+One&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/ee93d8bdef.js" crossorigin="anonymous"></script>
+
+  <div class = "divForm">
+    <h2>Registration Form.</h2><br>
+    <form action="Registro.jsp" method="post">
+      <fieldset>
+       <legend>User Data</legend>
+    
+        Name <br/>
+        <input type="text" name="nombre" value="" size="20" maxlength="20" /><br/>
+  
+        Surname <br/>
+        <input type="text" name="apellidos" value="" size="50" maxlength="50" /><br/><br>
+        <label for="paisResidencia">Country</label> <br/>
+        <select id="paisResidencia" name="paisResidencia">
+            <option value="" selected="selected">- Select -</option>
+            <option value="Spain">Spain</option>
+            <option value="UK">UK</option>
+            <option value="Germany">Germany</option>
+            <option value="Portugal">Portugal</option>
+            <option value="France">France</option>
+            <option value="Italy">Italy</option>
+            <option value="Other">Other</option>
+        </select><br><br>
+        
+        <label for="so">Operating System</label> <br/>
+        <select id="so" name="so" size="3">
+            <option value="windows" selected="selected">Windows</option>
+            <option value="mac">Mac</option>
+            <option value="Android">Android</option>
+            <option value="linux">Linux</option>
+            <option value="Other">Other</option>
+        </select><br/>
+      </fieldset> <br/> 
+      
+      <fieldset>
+       <legend>Connection data</legend>
+        Username<br/>
+        <input type="text" name="username" value="" maxlength="10" /><br/>
+      
+        Password<br/>
+        <input type="password" name="contrasenia1" value="" maxlength="10" /><br/>
+      
+        Repeat Password<br/>
+        <input type="password" name="contrasenia2" value="" maxlength="10" />
+        
+      </fieldset>
+      <br/>
+      <input name="suscribir" type="checkbox" value="suscribir" checked="checked"/> Subscribe to the newsletter<br/><br/>
+      <input type="submit" name="enviar" value="Send" />
+      <input type="reset" name="limpiar" value="Reset Data" />
+      
+  
+    </form>
+    </div>
